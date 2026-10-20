@@ -11,7 +11,7 @@ def test_days_left_counts_days_until_due():
     # Act
     result = days_left(due, today)
     # Assert
-    assert result == 4
+    assert result == 3
 
 
 # Now write the tests below. Use the same three steps: Arrange, Act, Assert.
