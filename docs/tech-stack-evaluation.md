@@ -21,8 +21,6 @@ AI-Based Real-Time Classification and Prioritisation of Fire Hotspots for Transb
 
 ## Options
 
-## Options
-
 - Option A: Static website (HTML and JavaScript) on GitHub Pages. It is free and simple, but it cannot run the Python machine learning models or fetch new hotspot data by itself. It could only show results that were prepared beforehand.
 - Option B: Python web app (Flask) with a database on a cloud host. It can run the models and store hotspot and API records, but it needs more setup, and free cloud hosting is limited.
 - Option C: Python dashboard built with Streamlit and Folium, with the data and model code kept in GitHub. A scheduler (APScheduler) fetches new NASA FIRMS hotspot data and DOE API readings, runs the classification and prediction models, and updates the risk map. It is deployed on Streamlit Community Cloud, with GitHub Codespaces used for development.
