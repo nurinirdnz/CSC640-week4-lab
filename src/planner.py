@@ -18,7 +18,7 @@ def is_urgent(due, today, limit=2):
     A task that is already overdue is not urgent. It is late.
     """
     left = days_left(due, today)
-    return 0 <= left < limit
+    return 0 <= left <= limit
 
 
 def sort_by_due(tasks):
